@@ -70,6 +70,10 @@ Install once; then use Starter Packs in [docs/users/bundles.md](docs/users/bundl
    ```bash
    test -d ~/.gemini/antigravity/skills && echo "Skills installed in ~/.gemini/antigravity/skills"
    ```
+   For Windows (Powershell):
+   ```powershell
+   if (Test-Path -Path "$HOME\.gemini\antigravity\skills") {Write-Host "Skills installed in $HOME\.gemini\antigravity\skills"}
+   ```
 
 3. **Run your first skill**:
 
